@@ -6,7 +6,7 @@
       "cmd-b": "workspace::ToggleRightDock",
       "cmd-shift-b": "workspace::ToggleLeftDock",
       "cmd-shift-g": "git_panel::ToggleFocus",
-      "cmd-shift-l": "outline_panel::ToggleFocus",
+      "cmd-shift-b": "outline_panel::ToggleFocus",
       "cmd-q": null,
       "ctrl-cmd-left": "workspace::ActivatePaneLeft",
       "ctrl-cmd-right": "workspace::ActivatePaneRight",
@@ -22,7 +22,7 @@
     "context": "Editor",
     "bindings": {
       "cmd-e": "editor::GoToDefinition",
-      "cmd-shift-b": "workspace::ToggleLeftDock",
+      "cmd-alt-b": "workspace::ToggleLeftDock",
       "cmd-q": null
     }
   },
