@@ -4,9 +4,8 @@
     "bindings": {
       "shift shift": "file_finder::Toggle",
       "cmd-b": "workspace::ToggleRightDock",
-      "cmd-shift-b": "workspace::ToggleLeftDock",
+      "cmd-e": "workspace::ToggleLeftDock",
       "cmd-shift-g": "git_panel::ToggleFocus",
-      "cmd-shift-l": "outline_panel::ToggleFocus",
       "cmd-q": null,
       "ctrl-cmd-left": "workspace::ActivatePaneLeft",
       "ctrl-cmd-right": "workspace::ActivatePaneRight",
@@ -21,23 +20,22 @@
   {
     "context": "Editor",
     "bindings": {
-      "ctrl-`": "terminal_panel::ToggleFocus",
-      "cmd-e": "editor::GoToDefinition",
-      "cmd-shift-b": "workspace::ToggleLeftDock",
-      "cmd-q": null
+      "cmd-e": "workspace::ToggleLeftDock",
+      "cmd-q": null,
+      "cmd-click": "editor::GoToDefinition"
     }
   },
   {
     "context": "Terminal",
     "bindings": {
-      "ctrl-`": "workspace::ActivatePreviousPane",
-      "cmd-shift-b": "workspace::ToggleLeftDock",
+      "cmd-e": "workspace::ToggleLeftDock",
       "cmd-q": null
     }
   },
   {
     "bindings": {
-      "cmd-shift-i": "agent::ToggleFocus"
+      "cmd-shift-i": "agent::ToggleFocus",
+      "ctrl-`": "terminal_panel::ToggleFocus"
     }
   }
 ]
