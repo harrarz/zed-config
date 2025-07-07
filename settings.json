@@ -24,7 +24,7 @@
   },
   "terminal": {
     "button": false,
-    "font_size": 16.0
+    "font_size": 14.0
   },
   "autosave": {
     "after_delay": {
@@ -34,7 +34,9 @@
   "git": {
     "inline_blame": {
       "enabled": false
-    }
+    },
+    "git_gutter": "hide",
+    "hunk_style": "unstaged_hollow"
   },
   "linked_edits": true,
   "ensure_final_newline_on_save": true,
@@ -75,9 +77,9 @@
   "telemetry": {
     "metrics": false
   },
-  "theme": "GitHub Dark Default",
-  "ui_font_size": 16,
-  "buffer_font_size": 16.0,
+  "theme": "macOS Classic Light",
+  "ui_font_size": 14,
+  "buffer_font_size": 14.0,
   //"buffer_font_family": "Geist Mono",
   "tab_size": 2,
   "show_whitespaces": "selection",
