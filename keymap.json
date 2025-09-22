@@ -19,12 +19,6 @@
     }
   },
   {
-    "context": "Terminal",
-    "bindings": {
-      "cmd-t": "workspace::NewTerminal"
-    }
-  },
-  {
     "bindings": {
       "cmd-shift-i": "agent::ToggleFocus",
       "ctrl-`": "terminal_panel::ToggleFocus",
