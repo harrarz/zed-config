@@ -1,5 +1,5 @@
 {
-  "show_edit_predictions": false,
+  "show_edit_predictions": true,
   "edit_predictions": {
     "mode": "subtle",
     "copilot": {
@@ -19,7 +19,6 @@
   "agent": {
     "model_parameters": [],
     "dock": "bottom",
-    "version": "2",
     "button": false
   },
   "terminal": {
@@ -40,7 +39,6 @@
     "inline_blame": {
       "enabled": false
     },
-    "git_gutter": "hide",
     "hunk_style": "unstaged_hollow"
   },
   "linked_edits": true,
@@ -48,8 +46,8 @@
   "remove_trailing_whitespace_on_save": true,
   "indent_guides": {
     "enabled": false,
-    "line_width": 0,
-    "active_line_width": 0,
+    "line_width": 1,
+    "active_line_width": 2,
     "coloring": "fixed",
     "background_coloring": "disabled"
   },
@@ -131,25 +129,69 @@
     "**/.factorypath"
   ],
   "language_overrides": {
-    "JSON": {
-      "format_on_save": "off"
+    "JavaScript": {
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": ["--stdin-filepath", "{buffer_path}"]
+        }
+      }
     },
     "TypeScript": {
-      "format_on_save": "off"
-    },
-    "JavaScript": {
-      "format_on_save": "off"
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": ["--stdin-filepath", "{buffer_path}"]
+        }
+      }
     },
     "TSX": {
-      "format_on_save": "off"
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": ["--stdin-filepath", "{buffer_path}"]
+        }
+      }
+    },
+    "JSX": {
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": ["--stdin-filepath", "{buffer_path}"]
+        }
+      }
+    },
+    "JSON": {
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": ["--stdin-filepath", "{buffer_path}"]
+        }
+      }
     },
     "HTML": {
-      "format_on_save": "on"
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": ["--stdin-filepath", "{buffer_path}"]
+        }
+      }
     },
     "CSS": {
-      "format_on_save": "on"
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": ["--stdin-filepath", "{buffer_path}"]
+        }
+      }
     },
     "Markdown": {
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": ["--stdin-filepath", "{buffer_path}"]
+        }
+      },
       "show_whitespaces": "all"
     },
     "YAML": {
@@ -158,5 +200,6 @@
     "Python": {
       "show_whitespaces": "all"
     }
-  }
+  },
+  "disable_ai": true
 }
