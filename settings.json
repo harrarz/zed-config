@@ -69,7 +69,7 @@
   "gutter": {
     "line_numbers": true
   },
-  "hover_popover_delay": 300,
+  "hover_popover_delay": 0,
   "hover_popover_enabled": true,
   "selection_highlight": false,
   "cursor_blink": false,
@@ -78,7 +78,8 @@
     "Ruby": ["Jenkinsfile"]
   },
   "telemetry": {
-    "metrics": false
+    "metrics": false,
+    "diagnostics": false
   },
   "theme": "macOS Classic Light",
   "ui_font_size": 13,
