@@ -9,13 +9,16 @@
       "ctrl-cmd-shift-left": "pane::SplitLeft",
       "ctrl-cmd-shift-right": "pane::SplitRight",
       "ctrl-cmd-shift-up": "pane::SplitUp",
-      "ctrl-cmd-shift-down": "pane::SplitDown"
+      "ctrl-cmd-shift-down": "pane::SplitDown",
+      "cmd-r": null,
+      "cmd-shift-r": ["pane::DeploySearch", { "replace_enabled": true }]
     }
   },
   {
     "context": "Editor",
     "bindings": {
-      "cmd-e": "editor::GoToDefinition"
+      "cmd-e": "editor::GoToDefinition",
+      "cmd-r": "buffer_search::DeployReplace"
     }
   },
   {
