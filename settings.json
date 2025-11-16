@@ -69,6 +69,7 @@
   "gutter": {
     "line_numbers": true
   },
+  "relative_line_numbers": true,
   "hover_popover_delay": 0,
   "hover_popover_enabled": true,
   "selection_highlight": false,
