@@ -1,4 +1,6 @@
 {
+  "bottom_dock_layout": "contained",
+  "confirm_quit": true,
   "show_edit_predictions": true,
   "edit_predictions": {
     "mode": "subtle",
@@ -12,7 +14,6 @@
   "outline_panel": {
     "dock": "right"
   },
-  "icon_theme": "Material Icon Theme",
   "git_panel": {
     "dock": "right"
   },
@@ -69,7 +70,7 @@
   "gutter": {
     "line_numbers": true
   },
-  "relative_line_numbers": true,
+  "relative_line_numbers": "enabled",
   "hover_popover_delay": 0,
   "hover_popover_enabled": true,
   "selection_highlight": false,
@@ -82,7 +83,7 @@
     "metrics": false,
     "diagnostics": false
   },
-  "theme": "macOS Classic Light",
+  "theme": "Pitch Black",
   "ui_font_size": 13,
   "buffer_font_size": 13.0,
   "buffer_font_family": "JetBrains Mono",
@@ -94,7 +95,7 @@
     "file_icons": false
   },
   "toolbar": {
-    "breadcrumbs": false,
+    "breadcrumbs": true,
     "quick_actions": false
   },
   "tab_bar": {
@@ -223,5 +224,9 @@
       "show_whitespaces": "all"
     }
   },
-  "disable_ai": true
+  "disable_ai": true,
+  "completions": {
+    "enabled": true,
+    "trigger_on_keystroke": true
+  }
 }
